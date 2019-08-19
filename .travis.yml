@@ -1,7 +1,7 @@
     
-language: swift
+language: minimal
 
-osx_image: xcode10
+dist: xenial
 
 
 # Let fastlane set up the other dependency managers
