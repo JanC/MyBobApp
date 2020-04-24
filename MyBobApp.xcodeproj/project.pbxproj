@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AD74897231539330074AD37 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AD74899231539330074AD37 /* Localizable.strings */; };
 		8AF65F13230A9E91009B160C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF65F12230A9E91009B160C /* AppDelegate.swift */; };
 		8AF65F15230A9E91009B160C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF65F14230A9E91009B160C /* ViewController.swift */; };
 		8AF65F18230A9E91009B160C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF65F16230A9E91009B160C /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8AD74898231539330074AD37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8AD7489A231539730074AD37 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8AF65F0F230A9E91009B160C /* MyBobApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBobApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF65F12230A9E91009B160C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF65F14230A9E91009B160C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8AD74894231539010074AD37 /* LocalizableStrings */ = {
+			isa = PBXGroup;
+			children = (
+				8AD74899231539330074AD37 /* Localizable.strings */,
+			);
+			path = LocalizableStrings;
+			sourceTree = "<group>";
+		};
 		8AF65F06230A9E91009B160C = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +65,7 @@
 		8AF65F11230A9E91009B160C /* MyBobApp */ = {
 			isa = PBXGroup;
 			children = (
+				8AD74894231539010074AD37 /* LocalizableStrings */,
 				8AF65F12230A9E91009B160C /* AppDelegate.swift */,
 				8AF65F14230A9E91009B160C /* ViewController.swift */,
 				8AF65F16230A9E91009B160C /* Main.storyboard */,
@@ -106,6 +118,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 8AF65F06230A9E91009B160C;
 			productRefGroup = 8AF65F10230A9E91009B160C /* Products */;
@@ -123,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AF65F1D230A9E94009B160C /* LaunchScreen.storyboard in Resources */,
+				8AD74897231539330074AD37 /* Localizable.strings in Resources */,
 				8AF65F1A230A9E94009B160C /* Assets.xcassets in Resources */,
 				8AF65F18230A9E91009B160C /* Main.storyboard in Resources */,
 			);
@@ -143,6 +157,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		8AD74899231539330074AD37 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8AD74898231539330074AD37 /* en */,
+				8AD7489A231539730074AD37 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		8AF65F16230A9E91009B160C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -166,6 +189,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -227,6 +251,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
