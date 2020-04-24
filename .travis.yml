@@ -3,6 +3,9 @@ language: minimal
 
 dist: xenial
 
+env:
+    global:
+    - PATH=$HOME/.local/bin:$PATH
 
 # Let fastlane set up the other dependency managers
 # before_script:
